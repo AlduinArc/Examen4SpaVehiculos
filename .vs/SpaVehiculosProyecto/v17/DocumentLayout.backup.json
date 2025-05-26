@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\documents\\app_serv_web_mi_6_8\\spavehiculosproyecto\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-22T00:41:37.381Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

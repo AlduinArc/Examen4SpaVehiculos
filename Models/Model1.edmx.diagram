@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2634746390054bf7a8d74d317d716141" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="SpaVehiculosModel.Auto" Width="1.5" PointX="19" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.Cita" Width="1.5" PointX="16.625" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.Ciudad" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.Cliente" Width="1.5" PointX="16.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.DetalleFactura" Width="1.5" PointX="21.375" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.DetalleProducto" Width="1.5" PointX="8.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.DetalleServicio" Width="1.5" PointX="14.375" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.DetalleVenta" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.Empleado" Width="1.5" PointX="11.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.Factura" Width="1.5" PointX="19.125" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.Inventario" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.Producto" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.Proveedor" Width="1.5" PointX="11.125" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.Sede" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.Servicio" Width="1.5" PointX="12" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SpaVehiculosModel.Turno" Width="1.5" PointX="13.5" PointY="8.375" IsExpanded="true" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_Auto_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_DetalleServicio_Auto" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_Cita_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_Sede_Ciudad" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_Factura_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_DetalleFactura_Factura" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_DetalleProducto_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_DetalleProducto_Proveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_DetalleServicio_Servicio" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_DetalleVenta_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_Empleado_Servicio" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_Turno_Empleado" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_Inventario_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_Inventario_Sede" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_Servicios_Sede" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
