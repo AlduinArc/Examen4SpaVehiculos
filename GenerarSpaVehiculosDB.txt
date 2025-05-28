@@ -1,0 +1,179 @@
+USE SpaVehicular;
+GO
+
+-- =========================
+-- TABLA: Ciudad
+-- =========================
+CREATE TABLE dbo.Ciudad (
+    idCiudad INT PRIMARY KEY,
+    Nombre VARCHAR(100) NOT NULL
+);
+
+-- =========================
+-- TABLA: Sede
+-- =========================
+CREATE TABLE dbo.Sede (
+    idSede INT PRIMARY KEY,
+    Nombre VARCHAR(100) NOT NULL,
+    Direccion VARCHAR(200),
+    idCiudad INT NOT NULL,
+    CONSTRAINT FK_Sede_Ciudad FOREIGN KEY (idCiudad) REFERENCES dbo.Ciudad(idCiudad)
+);
+
+-- =========================
+-- TABLA: Productos
+-- =========================
+CREATE TABLE dbo.Productos (
+    idProducto INT PRIMARY KEY,
+    Nombre VARCHAR(100) NOT NULL,
+    Descripcion TEXT,
+    Precio DECIMAL(10, 2) NOT NULL
+);
+
+-- =========================
+-- TABLA: Inventario
+-- =========================
+CREATE TABLE dbo.Inventario (
+    idInventario INT PRIMARY KEY,
+    idSede INT NOT NULL,
+    idProducto INT NOT NULL,
+    Cantidad INT NOT NULL,
+    CONSTRAINT FK_Inventario_Sede FOREIGN KEY (idSede) REFERENCES dbo.Sede(idSede),
+    CONSTRAINT FK_Inventario_Producto FOREIGN KEY (idProducto) REFERENCES dbo.Productos(idProducto)
+);
+
+-- =========================
+-- TABLA: Proveedor
+-- =========================
+CREATE TABLE dbo.Proveedor (
+    idProveedor INT PRIMARY KEY,
+    Nombre VARCHAR(100) NOT NULL,
+    Contacto VARCHAR(100)
+);
+
+-- =========================
+-- TABLA: DetalleProducto
+-- =========================
+CREATE TABLE dbo.DetalleProducto (
+    idDetalleProducto INT PRIMARY KEY,
+    idProducto INT NOT NULL,
+    idProveedor INT NOT NULL,
+    FechaCompra DATE,
+    Cantidad INT,
+    CONSTRAINT FK_DetalleProducto_Producto FOREIGN KEY (idProducto) REFERENCES dbo.Productos(idProducto),
+    CONSTRAINT FK_DetalleProducto_Proveedor FOREIGN KEY (idProveedor) REFERENCES dbo.Proveedor(idProveedor)
+);
+
+-- =========================
+-- TABLA: DetalleVenta
+-- =========================
+CREATE TABLE dbo.DetalleVenta (
+    idDetalleVenta INT PRIMARY KEY,
+    idProducto INT NOT NULL,
+    Cantidad INT,
+    PrecioUnitario DECIMAL(10, 2),
+    CONSTRAINT FK_DetalleVenta_Producto FOREIGN KEY (idProducto) REFERENCES dbo.Productos(idProducto)
+);
+
+-- =========================
+-- TABLA: Servicios
+-- =========================
+CREATE TABLE dbo.Servicios (
+    idServicio INT PRIMARY KEY,
+    Nombre VARCHAR(100) NOT NULL,
+    Descripcion TEXT,
+    Precio DECIMAL(10, 2) NOT NULL,
+    idSede INT NOT NULL,
+    CONSTRAINT FK_Servicios_Sede FOREIGN KEY (idSede) REFERENCES dbo.Sede(idSede)
+);
+
+-- =========================
+-- TABLA: Empleado
+-- =========================
+CREATE TABLE dbo.Empleado (
+    idEmpleado INT PRIMARY KEY,
+    Nombre VARCHAR(100),
+    Apellido VARCHAR(100),
+    idServicio INT,
+    CONSTRAINT FK_Empleado_Servicio FOREIGN KEY (idServicio) REFERENCES dbo.Servicios(idServicio)
+);
+
+-- =========================
+-- TABLA: Turno
+-- =========================
+CREATE TABLE dbo.Turno (
+    idTurno INT PRIMARY KEY,
+    idEmpleado INT NOT NULL,
+    Fecha DATE,
+    HoraInicio TIME,
+    HoraFin TIME,
+    CONSTRAINT FK_Turno_Empleado FOREIGN KEY (idEmpleado) REFERENCES dbo.Empleado(idEmpleado)
+);
+
+-- =========================
+-- TABLA: Cliente
+-- =========================
+CREATE TABLE dbo.Cliente (
+    idCliente INT PRIMARY KEY,
+    Nombre VARCHAR(100),
+    Apellido VARCHAR(100),
+    Telefono VARCHAR(20)
+);
+
+-- =========================
+-- TABLA: Auto
+-- =========================
+CREATE TABLE dbo.Auto (
+    idAuto INT PRIMARY KEY,
+    idCliente INT NOT NULL,
+    Marca VARCHAR(50),
+    Modelo VARCHAR(50),
+    Placa VARCHAR(20) UNIQUE,
+    CONSTRAINT FK_Auto_Cliente FOREIGN KEY (idCliente) REFERENCES dbo.Cliente(idCliente)
+);
+
+-- =========================
+-- TABLA: DetalleServicio
+-- =========================
+CREATE TABLE dbo.DetalleServicio (
+    idDetalleServicio INT PRIMARY KEY,
+    idServicio INT NOT NULL,
+    idAuto INT NOT NULL,
+    Fecha DATE,
+    CONSTRAINT FK_DetalleServicio_Servicio FOREIGN KEY (idServicio) REFERENCES dbo.Servicios(idServicio),
+    CONSTRAINT FK_DetalleServicio_Auto FOREIGN KEY (idAuto) REFERENCES dbo.Auto(idAuto)
+);
+
+-- =========================
+-- TABLA: Cita
+-- =========================
+CREATE TABLE dbo.Cita (
+    idCita INT PRIMARY KEY,
+    idCliente INT NOT NULL,
+    Fecha DATE,
+    Hora TIME,
+    CONSTRAINT FK_Cita_Cliente FOREIGN KEY (idCliente) REFERENCES dbo.Cliente(idCliente)
+);
+
+-- =========================
+-- TABLA: Factura
+-- =========================
+CREATE TABLE dbo.Factura (
+    idFactura INT PRIMARY KEY,
+    idCliente INT NOT NULL,
+    Fecha DATE,
+    Total DECIMAL(10,2),
+    CONSTRAINT FK_Factura_Cliente FOREIGN KEY (idCliente) REFERENCES dbo.Cliente(idCliente)
+);
+
+-- =========================
+-- TABLA: DetalleFactura
+-- =========================
+CREATE TABLE dbo.DetalleFactura (
+    idDetalleFactura INT PRIMARY KEY,
+    idFactura INT NOT NULL,
+    Descripcion TEXT,
+    Cantidad INT,
+    PrecioUnitario DECIMAL(10, 2),
+    CONSTRAINT FK_DetalleFactura_Factura FOREIGN KEY (idFactura) REFERENCES dbo.Factura(idFactura)
+);

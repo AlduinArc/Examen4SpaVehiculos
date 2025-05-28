@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SpaVehiculosProyecto.Models;
+using SpaVehiculosProyecto.clases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -7,33 +9,37 @@ using System.Web.Http;
 
 namespace SpaVehiculosProyecto.Controllers
 {
-    public class EmpleadoController : ApiController
+    [RoutePrefix("api/empleados")]
+    public class EmpleadosController : ApiController
     {
-        // GET api/<controller>
-        public IEnumerable<string> Get()
+        clsEmpleado empleadoService = new clsEmpleado();
+
+        [HttpPost]
+        [Route("crear")]
+        public string Crear([FromBody] Empleado e)
         {
-            return new string[] { "value1", "value2" };
+            return empleadoService.Registrar(e);
         }
 
-        // GET api/<controller>/5
-        public string Get(int id)
+        [HttpGet]
+        [Route("consultar")]
+        public Empleado Consultar(int id)
         {
-            return "value";
+            return empleadoService.Consultar(id);
         }
 
-        // POST api/<controller>
-        public void Post([FromBody]string value)
+        [HttpPut]
+        [Route("actualizar")]
+        public string Actualizar([FromBody] Empleado e)
         {
+            return empleadoService.Actualizar(e);
         }
 
-        // PUT api/<controller>/5
-        public void Put(int id, [FromBody]string value)
+        [HttpDelete]
+        [Route("eliminar")]
+        public string Eliminar(int id)
         {
-        }
-
-        // DELETE api/<controller>/5
-        public void Delete(int id)
-        {
+            return empleadoService.Eliminar(id);
         }
     }
 }

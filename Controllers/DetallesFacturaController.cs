@@ -10,37 +10,37 @@ using System.Web.Http;
 
 namespace SpaVehiculosProyecto.Controllers
 {
-    [RoutePrefix("api/citas")]
-    public class CitasController : ApiController
+    [RoutePrefix("api/detallefactura")]
+    public class DetalleFacturaController : ApiController
     {
-        clsCita citaService = new clsCita();
+        clsDetalleFactura detalleService = new clsDetalleFactura();
 
         [HttpPost]
         [Route("crear")]
-        public string Crear([FromBody] Cita c)
+        public string Crear([FromBody] DetalleFactura d)
         {
-            return citaService.Registrar(c);
+            return detalleService.Registrar(d);
         }
 
         [HttpGet]
         [Route("consultar")]
-        public Cita Consultar(int id)
+        public DetalleFactura Consultar(int id)
         {
-            return citaService.Consultar(id);
+            return detalleService.Consultar(id);
         }
 
         [HttpPut]
         [Route("actualizar")]
-        public string Actualizar([FromBody] Cita c)
+        public string Actualizar([FromBody] DetalleFactura d)
         {
-            return citaService.Actualizar(c);
+            return detalleService.Actualizar(d);
         }
 
         [HttpDelete]
         [Route("eliminar")]
         public string Eliminar(int id)
         {
-            return citaService.Eliminar(id);
+            return detalleService.Eliminar(id);
         }
     }
 }
