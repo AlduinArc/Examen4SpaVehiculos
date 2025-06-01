@@ -13,10 +13,10 @@ namespace SpaVehiculosProyecto.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class SpaVehiculosEntities : DbContext
+    public partial class SpaVehiculosEntities1 : DbContext
     {
-        public SpaVehiculosEntities()
-            : base("name=SpaVehiculosEntities")
+        public SpaVehiculosEntities1()
+            : base("name=SpaVehiculosEntities1")
         {
         }
     

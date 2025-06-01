@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SpaVehiculosModelStoreContainer" CdmEntityContainer="SpaVehiculosEntities1">
+    <EntitySetMapping Name="Autoes">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Auto">
+        <MappingFragment StoreEntitySet="Auto">
+          <ScalarProperty Name="idAuto" ColumnName="idAuto" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Citas">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Cita">
+        <MappingFragment StoreEntitySet="Cita">
+          <ScalarProperty Name="idCita" ColumnName="idCita" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ciudads">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Ciudad">
+        <MappingFragment StoreEntitySet="Ciudad">
+          <ScalarProperty Name="idCiudad" ColumnName="idCiudad" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetalleFacturas">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.DetalleFactura">
+        <MappingFragment StoreEntitySet="DetalleFactura">
+          <ScalarProperty Name="idDetalleFactura" ColumnName="idDetalleFactura" />
+          <ScalarProperty Name="idFactura" ColumnName="idFactura" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="PrecioUnitario" ColumnName="PrecioUnitario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetalleProductoes">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.DetalleProducto">
+        <MappingFragment StoreEntitySet="DetalleProducto">
+          <ScalarProperty Name="idDetalleProducto" ColumnName="idDetalleProducto" />
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="idProveedor" ColumnName="idProveedor" />
+          <ScalarProperty Name="FechaCompra" ColumnName="FechaCompra" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetalleServicios">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.DetalleServicio">
+        <MappingFragment StoreEntitySet="DetalleServicio">
+          <ScalarProperty Name="idDetalleServicio" ColumnName="idDetalleServicio" />
+          <ScalarProperty Name="idServicio" ColumnName="idServicio" />
+          <ScalarProperty Name="idAuto" ColumnName="idAuto" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetalleVentas">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.DetalleVenta">
+        <MappingFragment StoreEntitySet="DetalleVenta">
+          <ScalarProperty Name="idDetalleVenta" ColumnName="idDetalleVenta" />
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="PrecioUnitario" ColumnName="PrecioUnitario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empleadoes">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Empleado">
+        <MappingFragment StoreEntitySet="Empleado">
+          <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="idServicio" ColumnName="idServicio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Facturas">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Factura">
+        <MappingFragment StoreEntitySet="Factura">
+          <ScalarProperty Name="idFactura" ColumnName="idFactura" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inventarios">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Inventario">
+        <MappingFragment StoreEntitySet="Inventario">
+          <ScalarProperty Name="idInventario" ColumnName="idInventario" />
+          <ScalarProperty Name="idSede" ColumnName="idSede" />
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Producto">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedors">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Proveedor">
+        <MappingFragment StoreEntitySet="Proveedor">
+          <ScalarProperty Name="idProveedor" ColumnName="idProveedor" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Contacto" ColumnName="Contacto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sedes">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Sede">
+        <MappingFragment StoreEntitySet="Sede">
+          <ScalarProperty Name="idSede" ColumnName="idSede" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="idCiudad" ColumnName="idCiudad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servicios">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Servicio">
+        <MappingFragment StoreEntitySet="Servicios">
+          <ScalarProperty Name="idServicio" ColumnName="idServicio" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="idSede" ColumnName="idSede" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Turnoes">
+      <EntityTypeMapping TypeName="SpaVehiculosModel.Turno">
+        <MappingFragment StoreEntitySet="Turno">
+          <ScalarProperty Name="idTurno" ColumnName="idTurno" />
+          <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="HoraInicio" ColumnName="HoraInicio" />
+          <ScalarProperty Name="HoraFin" ColumnName="HoraFin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

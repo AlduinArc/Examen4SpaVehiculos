@@ -6,7 +6,7 @@ namespace SpaVehiculosProyecto.clases
 {
     public class clsDetalleFactura
     {
-        private SpaVehiculosEntities db = new SpaVehiculosEntities();
+        private SpaVehiculosEntities1 db = new SpaVehiculosEntities1();
         public DetalleFactura detalle { get; set; }
 
         public string Registrar(DetalleFactura detalle)

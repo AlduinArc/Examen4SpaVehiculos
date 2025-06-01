@@ -8,7 +8,7 @@ namespace SpaVehiculosProyecto.clases
 {
     public class clsCita
     {
-        private SpaVehiculosEntities db = new SpaVehiculosEntities();
+        private SpaVehiculosEntities1 db = new SpaVehiculosEntities1();
         public Cita cita { get; set; }
 
         public string Registrar(Cita cita)
@@ -22,10 +22,22 @@ namespace SpaVehiculosProyecto.clases
             }
             catch (Exception ex)
             {
-                return "Error al registrar la cita: " + ex.Message;
+                // Método para recorrer todas las inner exceptions
+                string mensajeError = ObtenerMensajesExcepcion(ex);
+                return "Error al registrar la cita: " + mensajeError;
             }
         }
-
+        private string ObtenerMensajesExcepcion(Exception ex)
+        {
+            var mensajes = new System.Text.StringBuilder();
+            Exception currentEx = ex;
+            while (currentEx != null)
+            {
+                mensajes.AppendLine(currentEx.Message);
+                currentEx = currentEx.InnerException;
+            }
+            return mensajes.ToString();
+        }
         public Cita Consultar(int idCita)
         {
             return db.Citas.FirstOrDefault(c => c.idCita == idCita);

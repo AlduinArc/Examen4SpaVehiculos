@@ -9,7 +9,7 @@ namespace SpaVehiculosProyecto.clases
 {
     public class clsFactura
     {
-        private SpaVehiculosEntities db = new SpaVehiculosEntities();
+        private SpaVehiculosEntities1 db = new SpaVehiculosEntities1();
         public Factura factura { get; set; }
 
         public string Registrar(Factura factura)

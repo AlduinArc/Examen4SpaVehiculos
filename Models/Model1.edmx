@@ -9,7 +9,7 @@
           <Key>
             <PropertyRef Name="idAuto" />
           </Key>
-          <Property Name="idAuto" Type="int" Nullable="false" />
+          <Property Name="idAuto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="idCliente" Type="int" Nullable="false" />
           <Property Name="Marca" Type="varchar" MaxLength="50" />
           <Property Name="Modelo" Type="varchar" MaxLength="50" />
@@ -19,7 +19,7 @@
           <Key>
             <PropertyRef Name="idCita" />
           </Key>
-          <Property Name="idCita" Type="int" Nullable="false" />
+          <Property Name="idCita" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="idCliente" Type="int" Nullable="false" />
           <Property Name="Fecha" Type="date" />
           <Property Name="Hora" Type="time" Precision="7" />
@@ -28,14 +28,14 @@
           <Key>
             <PropertyRef Name="idCiudad" />
           </Key>
-          <Property Name="idCiudad" Type="int" Nullable="false" />
+          <Property Name="idCiudad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
         </EntityType>
         <EntityType Name="Cliente">
           <Key>
             <PropertyRef Name="idCliente" />
           </Key>
-          <Property Name="idCliente" Type="int" Nullable="false" />
+          <Property Name="idCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nombre" Type="varchar" MaxLength="100" />
           <Property Name="Apellido" Type="varchar" MaxLength="100" />
           <Property Name="Telefono" Type="varchar" MaxLength="20" />
@@ -44,7 +44,7 @@
           <Key>
             <PropertyRef Name="idDetalleFactura" />
           </Key>
-          <Property Name="idDetalleFactura" Type="int" Nullable="false" />
+          <Property Name="idDetalleFactura" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="idFactura" Type="int" Nullable="false" />
           <Property Name="Descripcion" Type="text" />
           <Property Name="Cantidad" Type="int" />
@@ -54,7 +54,7 @@
           <Key>
             <PropertyRef Name="idDetalleProducto" />
           </Key>
-          <Property Name="idDetalleProducto" Type="int" Nullable="false" />
+          <Property Name="idDetalleProducto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="idProducto" Type="int" Nullable="false" />
           <Property Name="idProveedor" Type="int" Nullable="false" />
           <Property Name="FechaCompra" Type="date" />
@@ -64,7 +64,7 @@
           <Key>
             <PropertyRef Name="idDetalleServicio" />
           </Key>
-          <Property Name="idDetalleServicio" Type="int" Nullable="false" />
+          <Property Name="idDetalleServicio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="idServicio" Type="int" Nullable="false" />
           <Property Name="idAuto" Type="int" Nullable="false" />
           <Property Name="Fecha" Type="date" />
@@ -73,7 +73,7 @@
           <Key>
             <PropertyRef Name="idDetalleVenta" />
           </Key>
-          <Property Name="idDetalleVenta" Type="int" Nullable="false" />
+          <Property Name="idDetalleVenta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="idProducto" Type="int" Nullable="false" />
           <Property Name="Cantidad" Type="int" />
           <Property Name="PrecioUnitario" Type="decimal" Precision="10" Scale="2" />
@@ -82,7 +82,7 @@
           <Key>
             <PropertyRef Name="idEmpleado" />
           </Key>
-          <Property Name="idEmpleado" Type="int" Nullable="false" />
+          <Property Name="idEmpleado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nombre" Type="varchar" MaxLength="100" />
           <Property Name="Apellido" Type="varchar" MaxLength="100" />
           <Property Name="idServicio" Type="int" />
@@ -91,7 +91,7 @@
           <Key>
             <PropertyRef Name="idFactura" />
           </Key>
-          <Property Name="idFactura" Type="int" Nullable="false" />
+          <Property Name="idFactura" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="idCliente" Type="int" Nullable="false" />
           <Property Name="Fecha" Type="date" />
           <Property Name="Total" Type="decimal" Precision="10" Scale="2" />
@@ -100,7 +100,7 @@
           <Key>
             <PropertyRef Name="idInventario" />
           </Key>
-          <Property Name="idInventario" Type="int" Nullable="false" />
+          <Property Name="idInventario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="idSede" Type="int" Nullable="false" />
           <Property Name="idProducto" Type="int" Nullable="false" />
           <Property Name="Cantidad" Type="int" Nullable="false" />
@@ -109,7 +109,7 @@
           <Key>
             <PropertyRef Name="idProducto" />
           </Key>
-          <Property Name="idProducto" Type="int" Nullable="false" />
+          <Property Name="idProducto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="Descripcion" Type="text" />
           <Property Name="Precio" Type="decimal" Precision="10" Scale="2" Nullable="false" />
@@ -118,7 +118,7 @@
           <Key>
             <PropertyRef Name="idProveedor" />
           </Key>
-          <Property Name="idProveedor" Type="int" Nullable="false" />
+          <Property Name="idProveedor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="Contacto" Type="varchar" MaxLength="100" />
         </EntityType>
@@ -126,7 +126,7 @@
           <Key>
             <PropertyRef Name="idSede" />
           </Key>
-          <Property Name="idSede" Type="int" Nullable="false" />
+          <Property Name="idSede" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="Direccion" Type="varchar" MaxLength="200" />
           <Property Name="idCiudad" Type="int" Nullable="false" />
@@ -135,7 +135,7 @@
           <Key>
             <PropertyRef Name="idServicio" />
           </Key>
-          <Property Name="idServicio" Type="int" Nullable="false" />
+          <Property Name="idServicio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="Descripcion" Type="text" />
           <Property Name="Precio" Type="decimal" Precision="10" Scale="2" Nullable="false" />
@@ -145,7 +145,7 @@
           <Key>
             <PropertyRef Name="idTurno" />
           </Key>
-          <Property Name="idTurno" Type="int" Nullable="false" />
+          <Property Name="idTurno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="idEmpleado" Type="int" Nullable="false" />
           <Property Name="Fecha" Type="date" />
           <Property Name="HoraInicio" Type="time" Precision="7" />
@@ -418,7 +418,7 @@
           <Key>
             <PropertyRef Name="idAuto" />
           </Key>
-          <Property Name="idAuto" Type="Int32" Nullable="false" />
+          <Property Name="idAuto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="idCliente" Type="Int32" Nullable="false" />
           <Property Name="Marca" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Modelo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
@@ -430,7 +430,7 @@
           <Key>
             <PropertyRef Name="idCita" />
           </Key>
-          <Property Name="idCita" Type="Int32" Nullable="false" />
+          <Property Name="idCita" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="idCliente" Type="Int32" Nullable="false" />
           <Property Name="Fecha" Type="DateTime" Precision="0" />
           <Property Name="Hora" Type="Time" Precision="7" />
@@ -440,7 +440,7 @@
           <Key>
             <PropertyRef Name="idCiudad" />
           </Key>
-          <Property Name="idCiudad" Type="Int32" Nullable="false" />
+          <Property Name="idCiudad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="Sedes" Relationship="Self.FK_Sede_Ciudad" FromRole="Ciudad" ToRole="Sede" />
         </EntityType>
@@ -448,7 +448,7 @@
           <Key>
             <PropertyRef Name="idCliente" />
           </Key>
-          <Property Name="idCliente" Type="Int32" Nullable="false" />
+          <Property Name="idCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Apellido" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
@@ -460,7 +460,7 @@
           <Key>
             <PropertyRef Name="idDetalleFactura" />
           </Key>
-          <Property Name="idDetalleFactura" Type="Int32" Nullable="false" />
+          <Property Name="idDetalleFactura" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="idFactura" Type="Int32" Nullable="false" />
           <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="Cantidad" Type="Int32" />
@@ -471,7 +471,7 @@
           <Key>
             <PropertyRef Name="idDetalleProducto" />
           </Key>
-          <Property Name="idDetalleProducto" Type="Int32" Nullable="false" />
+          <Property Name="idDetalleProducto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="idProducto" Type="Int32" Nullable="false" />
           <Property Name="idProveedor" Type="Int32" Nullable="false" />
           <Property Name="FechaCompra" Type="DateTime" Precision="0" />
@@ -483,7 +483,7 @@
           <Key>
             <PropertyRef Name="idDetalleServicio" />
           </Key>
-          <Property Name="idDetalleServicio" Type="Int32" Nullable="false" />
+          <Property Name="idDetalleServicio" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="idServicio" Type="Int32" Nullable="false" />
           <Property Name="idAuto" Type="Int32" Nullable="false" />
           <Property Name="Fecha" Type="DateTime" Precision="0" />
@@ -494,7 +494,7 @@
           <Key>
             <PropertyRef Name="idDetalleVenta" />
           </Key>
-          <Property Name="idDetalleVenta" Type="Int32" Nullable="false" />
+          <Property Name="idDetalleVenta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="idProducto" Type="Int32" Nullable="false" />
           <Property Name="Cantidad" Type="Int32" />
           <Property Name="PrecioUnitario" Type="Decimal" Precision="10" Scale="2" />
@@ -504,7 +504,7 @@
           <Key>
             <PropertyRef Name="idEmpleado" />
           </Key>
-          <Property Name="idEmpleado" Type="Int32" Nullable="false" />
+          <Property Name="idEmpleado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Apellido" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="idServicio" Type="Int32" />
@@ -515,7 +515,7 @@
           <Key>
             <PropertyRef Name="idFactura" />
           </Key>
-          <Property Name="idFactura" Type="Int32" Nullable="false" />
+          <Property Name="idFactura" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="idCliente" Type="Int32" Nullable="false" />
           <Property Name="Fecha" Type="DateTime" Precision="0" />
           <Property Name="Total" Type="Decimal" Precision="10" Scale="2" />
@@ -526,7 +526,7 @@
           <Key>
             <PropertyRef Name="idInventario" />
           </Key>
-          <Property Name="idInventario" Type="Int32" Nullable="false" />
+          <Property Name="idInventario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="idSede" Type="Int32" Nullable="false" />
           <Property Name="idProducto" Type="Int32" Nullable="false" />
           <Property Name="Cantidad" Type="Int32" Nullable="false" />
@@ -537,7 +537,7 @@
           <Key>
             <PropertyRef Name="idProducto" />
           </Key>
-          <Property Name="idProducto" Type="Int32" Nullable="false" />
+          <Property Name="idProducto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="Precio" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
@@ -549,7 +549,7 @@
           <Key>
             <PropertyRef Name="idProveedor" />
           </Key>
-          <Property Name="idProveedor" Type="Int32" Nullable="false" />
+          <Property Name="idProveedor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Contacto" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="DetalleProductoes" Relationship="Self.FK_DetalleProducto_Proveedor" FromRole="Proveedor" ToRole="DetalleProducto" />
@@ -558,7 +558,7 @@
           <Key>
             <PropertyRef Name="idSede" />
           </Key>
-          <Property Name="idSede" Type="Int32" Nullable="false" />
+          <Property Name="idSede" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Direccion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
           <Property Name="idCiudad" Type="Int32" Nullable="false" />
@@ -570,7 +570,7 @@
           <Key>
             <PropertyRef Name="idServicio" />
           </Key>
-          <Property Name="idServicio" Type="Int32" Nullable="false" />
+          <Property Name="idServicio" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="Precio" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
@@ -583,7 +583,7 @@
           <Key>
             <PropertyRef Name="idTurno" />
           </Key>
-          <Property Name="idTurno" Type="Int32" Nullable="false" />
+          <Property Name="idTurno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="idEmpleado" Type="Int32" Nullable="false" />
           <Property Name="Fecha" Type="DateTime" Precision="0" />
           <Property Name="HoraInicio" Type="Time" Precision="7" />
@@ -770,7 +770,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="SpaVehiculosEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="SpaVehiculosEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Autoes" EntityType="Self.Auto" />
           <EntitySet Name="Citas" EntityType="Self.Cita" />
           <EntitySet Name="Ciudads" EntityType="Self.Ciudad" />
@@ -853,7 +853,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="SpaVehiculosModelStoreContainer" CdmEntityContainer="SpaVehiculosEntities">
+        <EntityContainerMapping StorageEntityContainer="SpaVehiculosModelStoreContainer" CdmEntityContainer="SpaVehiculosEntities1">
           <EntitySetMapping Name="Autoes">
             <EntityTypeMapping TypeName="SpaVehiculosModel.Auto">
               <MappingFragment StoreEntitySet="Auto">

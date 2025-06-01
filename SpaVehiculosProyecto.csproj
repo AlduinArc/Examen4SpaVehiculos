@@ -279,7 +279,6 @@
     <Compile Include="clases\clsDetalleServicio.cs" />
     <Compile Include="clases\clsEmpleado.cs" />
     <Compile Include="clases\clsFactura.cs" />
-    <Compile Include="clases\clsLogin.cs" />
     <Compile Include="clases\clsServicios.cs" />
     <Compile Include="clases\TokenGenerator.cs" />
     <Compile Include="clases\TokenValidationHandler.cs" />
@@ -292,7 +291,6 @@
     <Compile Include="Controllers\EmpleadoController.cs" />
     <Compile Include="Controllers\FacturaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ServicioController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">

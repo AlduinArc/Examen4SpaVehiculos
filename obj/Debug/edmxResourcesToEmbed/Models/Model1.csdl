@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SpaVehiculosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Auto">
+    <Key>
+      <PropertyRef Name="idAuto" />
+    </Key>
+    <Property Name="idAuto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idCliente" Type="Int32" Nullable="false" />
+    <Property Name="Marca" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Modelo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Placa" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK_Auto_Cliente" FromRole="Auto" ToRole="Cliente" />
+    <NavigationProperty Name="DetalleServicios" Relationship="Self.FK_DetalleServicio_Auto" FromRole="Auto" ToRole="DetalleServicio" />
+  </EntityType>
+  <EntityType Name="Cita">
+    <Key>
+      <PropertyRef Name="idCita" />
+    </Key>
+    <Property Name="idCita" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idCliente" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <Property Name="Hora" Type="Time" Precision="7" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK_Cita_Cliente" FromRole="Cita" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="Ciudad">
+    <Key>
+      <PropertyRef Name="idCiudad" />
+    </Key>
+    <Property Name="idCiudad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Sedes" Relationship="Self.FK_Sede_Ciudad" FromRole="Ciudad" ToRole="Sede" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Autoes" Relationship="Self.FK_Auto_Cliente" FromRole="Cliente" ToRole="Auto" />
+    <NavigationProperty Name="Citas" Relationship="Self.FK_Cita_Cliente" FromRole="Cliente" ToRole="Cita" />
+    <NavigationProperty Name="Facturas" Relationship="Self.FK_Factura_Cliente" FromRole="Cliente" ToRole="Factura" />
+  </EntityType>
+  <EntityType Name="DetalleFactura">
+    <Key>
+      <PropertyRef Name="idDetalleFactura" />
+    </Key>
+    <Property Name="idDetalleFactura" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idFactura" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Cantidad" Type="Int32" />
+    <Property Name="PrecioUnitario" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="Factura" Relationship="Self.FK_DetalleFactura_Factura" FromRole="DetalleFactura" ToRole="Factura" />
+  </EntityType>
+  <EntityType Name="DetalleProducto">
+    <Key>
+      <PropertyRef Name="idDetalleProducto" />
+    </Key>
+    <Property Name="idDetalleProducto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idProducto" Type="Int32" Nullable="false" />
+    <Property Name="idProveedor" Type="Int32" Nullable="false" />
+    <Property Name="FechaCompra" Type="DateTime" Precision="0" />
+    <Property Name="Cantidad" Type="Int32" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK_DetalleProducto_Producto" FromRole="DetalleProducto" ToRole="Productos" />
+    <NavigationProperty Name="Proveedor" Relationship="Self.FK_DetalleProducto_Proveedor" FromRole="DetalleProducto" ToRole="Proveedor" />
+  </EntityType>
+  <EntityType Name="DetalleServicio">
+    <Key>
+      <PropertyRef Name="idDetalleServicio" />
+    </Key>
+    <Property Name="idDetalleServicio" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idServicio" Type="Int32" Nullable="false" />
+    <Property Name="idAuto" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Auto" Relationship="Self.FK_DetalleServicio_Auto" FromRole="DetalleServicio" ToRole="Auto" />
+    <NavigationProperty Name="Servicio" Relationship="Self.FK_DetalleServicio_Servicio" FromRole="DetalleServicio" ToRole="Servicios" />
+  </EntityType>
+  <EntityType Name="DetalleVenta">
+    <Key>
+      <PropertyRef Name="idDetalleVenta" />
+    </Key>
+    <Property Name="idDetalleVenta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idProducto" Type="Int32" Nullable="false" />
+    <Property Name="Cantidad" Type="Int32" />
+    <Property Name="PrecioUnitario" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK_DetalleVenta_Producto" FromRole="DetalleVenta" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="idEmpleado" />
+    </Key>
+    <Property Name="idEmpleado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="idServicio" Type="Int32" />
+    <NavigationProperty Name="Servicio" Relationship="Self.FK_Empleado_Servicio" FromRole="Empleado" ToRole="Servicios" />
+    <NavigationProperty Name="Turnoes" Relationship="Self.FK_Turno_Empleado" FromRole="Empleado" ToRole="Turno" />
+  </EntityType>
+  <EntityType Name="Factura">
+    <Key>
+      <PropertyRef Name="idFactura" />
+    </Key>
+    <Property Name="idFactura" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idCliente" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <Property Name="Total" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK_Factura_Cliente" FromRole="Factura" ToRole="Cliente" />
+    <NavigationProperty Name="DetalleFacturas" Relationship="Self.FK_DetalleFactura_Factura" FromRole="Factura" ToRole="DetalleFactura" />
+  </EntityType>
+  <EntityType Name="Inventario">
+    <Key>
+      <PropertyRef Name="idInventario" />
+    </Key>
+    <Property Name="idInventario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idSede" Type="Int32" Nullable="false" />
+    <Property Name="idProducto" Type="Int32" Nullable="false" />
+    <Property Name="Cantidad" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK_Inventario_Producto" FromRole="Inventario" ToRole="Productos" />
+    <NavigationProperty Name="Sede" Relationship="Self.FK_Inventario_Sede" FromRole="Inventario" ToRole="Sede" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="idProducto" />
+    </Key>
+    <Property Name="idProducto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Precio" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="DetalleProductoes" Relationship="Self.FK_DetalleProducto_Producto" FromRole="Productos" ToRole="DetalleProducto" />
+    <NavigationProperty Name="DetalleVentas" Relationship="Self.FK_DetalleVenta_Producto" FromRole="Productos" ToRole="DetalleVenta" />
+    <NavigationProperty Name="Inventarios" Relationship="Self.FK_Inventario_Producto" FromRole="Productos" ToRole="Inventario" />
+  </EntityType>
+  <EntityType Name="Proveedor">
+    <Key>
+      <PropertyRef Name="idProveedor" />
+    </Key>
+    <Property Name="idProveedor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contacto" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="DetalleProductoes" Relationship="Self.FK_DetalleProducto_Proveedor" FromRole="Proveedor" ToRole="DetalleProducto" />
+  </EntityType>
+  <EntityType Name="Sede">
+    <Key>
+      <PropertyRef Name="idSede" />
+    </Key>
+    <Property Name="idSede" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Direccion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="idCiudad" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Ciudad" Relationship="Self.FK_Sede_Ciudad" FromRole="Sede" ToRole="Ciudad" />
+    <NavigationProperty Name="Inventarios" Relationship="Self.FK_Inventario_Sede" FromRole="Sede" ToRole="Inventario" />
+    <NavigationProperty Name="Servicios" Relationship="Self.FK_Servicios_Sede" FromRole="Sede" ToRole="Servicios" />
+  </EntityType>
+  <EntityType Name="Servicio">
+    <Key>
+      <PropertyRef Name="idServicio" />
+    </Key>
+    <Property Name="idServicio" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Precio" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="idSede" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DetalleServicios" Relationship="Self.FK_DetalleServicio_Servicio" FromRole="Servicios" ToRole="DetalleServicio" />
+    <NavigationProperty Name="Empleadoes" Relationship="Self.FK_Empleado_Servicio" FromRole="Servicios" ToRole="Empleado" />
+    <NavigationProperty Name="Sede" Relationship="Self.FK_Servicios_Sede" FromRole="Servicios" ToRole="Sede" />
+  </EntityType>
+  <EntityType Name="Turno">
+    <Key>
+      <PropertyRef Name="idTurno" />
+    </Key>
+    <Property Name="idTurno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idEmpleado" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <Property Name="HoraInicio" Type="Time" Precision="7" />
+    <Property Name="HoraFin" Type="Time" Precision="7" />
+    <NavigationProperty Name="Empleado" Relationship="Self.FK_Turno_Empleado" FromRole="Turno" ToRole="Empleado" />
+  </EntityType>
+  <Association Name="FK_Auto_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Auto" Type="Self.Auto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="Auto">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetalleServicio_Auto">
+    <End Role="Auto" Type="Self.Auto" Multiplicity="1" />
+    <End Role="DetalleServicio" Type="Self.DetalleServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Auto">
+        <PropertyRef Name="idAuto" />
+      </Principal>
+      <Dependent Role="DetalleServicio">
+        <PropertyRef Name="idAuto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cita_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Cita" Type="Self.Cita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="Cita">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sede_Ciudad">
+    <End Role="Ciudad" Type="Self.Ciudad" Multiplicity="1" />
+    <End Role="Sede" Type="Self.Sede" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ciudad">
+        <PropertyRef Name="idCiudad" />
+      </Principal>
+      <Dependent Role="Sede">
+        <PropertyRef Name="idCiudad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Factura_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetalleFactura_Factura">
+    <End Role="Factura" Type="Self.Factura" Multiplicity="1" />
+    <End Role="DetalleFactura" Type="Self.DetalleFactura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Factura">
+        <PropertyRef Name="idFactura" />
+      </Principal>
+      <Dependent Role="DetalleFactura">
+        <PropertyRef Name="idFactura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetalleProducto_Producto">
+    <End Role="Productos" Type="Self.Producto" Multiplicity="1" />
+    <End Role="DetalleProducto" Type="Self.DetalleProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="idProducto" />
+      </Principal>
+      <Dependent Role="DetalleProducto">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetalleProducto_Proveedor">
+    <End Role="Proveedor" Type="Self.Proveedor" Multiplicity="1" />
+    <End Role="DetalleProducto" Type="Self.DetalleProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedor">
+        <PropertyRef Name="idProveedor" />
+      </Principal>
+      <Dependent Role="DetalleProducto">
+        <PropertyRef Name="idProveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetalleServicio_Servicio">
+    <End Role="Servicios" Type="Self.Servicio" Multiplicity="1" />
+    <End Role="DetalleServicio" Type="Self.DetalleServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Servicios">
+        <PropertyRef Name="idServicio" />
+      </Principal>
+      <Dependent Role="DetalleServicio">
+        <PropertyRef Name="idServicio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetalleVenta_Producto">
+    <End Role="Productos" Type="Self.Producto" Multiplicity="1" />
+    <End Role="DetalleVenta" Type="Self.DetalleVenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="idProducto" />
+      </Principal>
+      <Dependent Role="DetalleVenta">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Empleado_Servicio">
+    <End Role="Servicios" Type="Self.Servicio" Multiplicity="0..1" />
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Servicios">
+        <PropertyRef Name="idServicio" />
+      </Principal>
+      <Dependent Role="Empleado">
+        <PropertyRef Name="idServicio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Turno_Empleado">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
+    <End Role="Turno" Type="Self.Turno" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="idEmpleado" />
+      </Principal>
+      <Dependent Role="Turno">
+        <PropertyRef Name="idEmpleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Inventario_Producto">
+    <End Role="Productos" Type="Self.Producto" Multiplicity="1" />
+    <End Role="Inventario" Type="Self.Inventario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="idProducto" />
+      </Principal>
+      <Dependent Role="Inventario">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Inventario_Sede">
+    <End Role="Sede" Type="Self.Sede" Multiplicity="1" />
+    <End Role="Inventario" Type="Self.Inventario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sede">
+        <PropertyRef Name="idSede" />
+      </Principal>
+      <Dependent Role="Inventario">
+        <PropertyRef Name="idSede" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Servicios_Sede">
+    <End Role="Sede" Type="Self.Sede" Multiplicity="1" />
+    <End Role="Servicios" Type="Self.Servicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sede">
+        <PropertyRef Name="idSede" />
+      </Principal>
+      <Dependent Role="Servicios">
+        <PropertyRef Name="idSede" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SpaVehiculosEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Autoes" EntityType="Self.Auto" />
+    <EntitySet Name="Citas" EntityType="Self.Cita" />
+    <EntitySet Name="Ciudads" EntityType="Self.Ciudad" />
+    <EntitySet Name="Clientes" EntityType="Self.Cliente" />
+    <EntitySet Name="DetalleFacturas" EntityType="Self.DetalleFactura" />
+    <EntitySet Name="DetalleProductoes" EntityType="Self.DetalleProducto" />
+    <EntitySet Name="DetalleServicios" EntityType="Self.DetalleServicio" />
+    <EntitySet Name="DetalleVentas" EntityType="Self.DetalleVenta" />
+    <EntitySet Name="Empleadoes" EntityType="Self.Empleado" />
+    <EntitySet Name="Facturas" EntityType="Self.Factura" />
+    <EntitySet Name="Inventarios" EntityType="Self.Inventario" />
+    <EntitySet Name="Productos" EntityType="Self.Producto" />
+    <EntitySet Name="Proveedors" EntityType="Self.Proveedor" />
+    <EntitySet Name="Sedes" EntityType="Self.Sede" />
+    <EntitySet Name="Servicios" EntityType="Self.Servicio" />
+    <EntitySet Name="Turnoes" EntityType="Self.Turno" />
+    <AssociationSet Name="FK_Auto_Cliente" Association="Self.FK_Auto_Cliente">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="Auto" EntitySet="Autoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetalleServicio_Auto" Association="Self.FK_DetalleServicio_Auto">
+      <End Role="Auto" EntitySet="Autoes" />
+      <End Role="DetalleServicio" EntitySet="DetalleServicios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cita_Cliente" Association="Self.FK_Cita_Cliente">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="Cita" EntitySet="Citas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sede_Ciudad" Association="Self.FK_Sede_Ciudad">
+      <End Role="Ciudad" EntitySet="Ciudads" />
+      <End Role="Sede" EntitySet="Sedes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Factura_Cliente" Association="Self.FK_Factura_Cliente">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="Factura" EntitySet="Facturas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetalleFactura_Factura" Association="Self.FK_DetalleFactura_Factura">
+      <End Role="Factura" EntitySet="Facturas" />
+      <End Role="DetalleFactura" EntitySet="DetalleFacturas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetalleProducto_Producto" Association="Self.FK_DetalleProducto_Producto">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DetalleProducto" EntitySet="DetalleProductoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetalleProducto_Proveedor" Association="Self.FK_DetalleProducto_Proveedor">
+      <End Role="Proveedor" EntitySet="Proveedors" />
+      <End Role="DetalleProducto" EntitySet="DetalleProductoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetalleServicio_Servicio" Association="Self.FK_DetalleServicio_Servicio">
+      <End Role="Servicios" EntitySet="Servicios" />
+      <End Role="DetalleServicio" EntitySet="DetalleServicios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetalleVenta_Producto" Association="Self.FK_DetalleVenta_Producto">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DetalleVenta" EntitySet="DetalleVentas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Empleado_Servicio" Association="Self.FK_Empleado_Servicio">
+      <End Role="Servicios" EntitySet="Servicios" />
+      <End Role="Empleado" EntitySet="Empleadoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Turno_Empleado" Association="Self.FK_Turno_Empleado">
+      <End Role="Empleado" EntitySet="Empleadoes" />
+      <End Role="Turno" EntitySet="Turnoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Inventario_Producto" Association="Self.FK_Inventario_Producto">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="Inventario" EntitySet="Inventarios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Inventario_Sede" Association="Self.FK_Inventario_Sede">
+      <End Role="Sede" EntitySet="Sedes" />
+      <End Role="Inventario" EntitySet="Inventarios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Servicios_Sede" Association="Self.FK_Servicios_Sede">
+      <End Role="Sede" EntitySet="Sedes" />
+      <End Role="Servicios" EntitySet="Servicios" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

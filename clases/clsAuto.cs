@@ -8,7 +8,7 @@ namespace SpaVehiculosProyecto.clases
 {
     public class clsAuto
     {
-        private SpaVehiculosEntities db = new SpaVehiculosEntities();
+        private SpaVehiculosEntities1 db = new SpaVehiculosEntities1();
         public Auto auto { get; set; }
 
         public string Registrar(Auto auto)

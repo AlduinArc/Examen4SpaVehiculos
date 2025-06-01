@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\documents\\app_serv_web_mi_6_8\\spavehiculosproyecto\\clases\\clsservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\documents\\app_serv_web_mi_6_8\\spavehiculosproyecto\\clases\\clscita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clscita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\documents\\app_serv_web_mi_6_8\\spavehiculosproyecto\\clases\\clsdetallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsdetallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\documents\\app_serv_web_mi_6_8\\spavehiculosproyecto\\clases\\clsauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\documents\\app_serv_web_mi_6_8\\spavehiculosproyecto\\clases\\clscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\documents\\app_serv_web_mi_6_8\\spavehiculosproyecto\\clases\\clsdetalleservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsdetalleservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\documents\\app_serv_web_mi_6_8\\spavehiculosproyecto\\clases\\clsempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\documents\\app_serv_web_mi_6_8\\spavehiculosproyecto\\clases\\clsfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\documents\\app_serv_web_mi_6_8\\spavehiculosproyecto\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\documents\\app_serv_web_mi_6_8\\spavehiculosproyecto\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +55,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsServicios.cs",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsServicios.cs",
+              "RelativeDocumentMoniker": "clases\\clsServicios.cs",
+              "ToolTip": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsServicios.cs",
+              "RelativeToolTip": "clases\\clsServicios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:03:21.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "clsFactura.cs",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsFactura.cs",
+              "RelativeDocumentMoniker": "clases\\clsFactura.cs",
+              "ToolTip": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsFactura.cs",
+              "RelativeToolTip": "clases\\clsFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:03:02.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsEmpleado.cs",
+              "RelativeDocumentMoniker": "clases\\clsEmpleado.cs",
+              "ToolTip": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsEmpleado.cs",
+              "RelativeToolTip": "clases\\clsEmpleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:02:52.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clsDetalleServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsDetalleServicio.cs",
+              "RelativeDocumentMoniker": "clases\\clsDetalleServicio.cs",
+              "ToolTip": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsDetalleServicio.cs",
+              "RelativeToolTip": "clases\\clsDetalleServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:02:35.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsDetalleFactura.cs",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsDetalleFactura.cs",
+              "RelativeDocumentMoniker": "clases\\clsDetalleFactura.cs",
+              "ToolTip": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsDetalleFactura.cs",
+              "RelativeToolTip": "clases\\clsDetalleFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:02:26.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsCliente.cs",
+              "RelativeDocumentMoniker": "clases\\clsCliente.cs",
+              "ToolTip": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsCliente.cs",
+              "RelativeToolTip": "clases\\clsCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:02:20.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsAuto.cs",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsAuto.cs",
+              "RelativeDocumentMoniker": "clases\\clsAuto.cs",
+              "ToolTip": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsAuto.cs",
+              "RelativeToolTip": "clases\\clsAuto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:01:25.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\Models\\Model1.edmx",
               "RelativeDocumentMoniker": "Models\\Model1.edmx",
               "ToolTip": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\Models\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-05-22T00:41:37.381Z",
+              "WhenOpened": "2025-06-01T19:00:24.407Z",
               "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsCita.cs",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsCita.cs",
+              "RelativeDocumentMoniker": "clases\\clsCita.cs",
+              "ToolTip": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\clases\\clsCita.cs",
+              "RelativeToolTip": "clases\\clsCita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:38:52.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\Morfeo\\Documents\\App_Serv_WEB_Mi_6_8\\SpaVehiculosProyecto\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:30:57.463Z",
+              "EditorCaption": ""
             }
           ]
         }
