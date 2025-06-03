@@ -1,3 +1,6 @@
+Create database SpaVehicular
+Go
+
 USE SpaVehicular;
 GO
 
@@ -158,3 +161,8 @@ ALTER TABLE dbo.DetalleServicio ADD CONSTRAINT FK_DetalleServicio_Auto FOREIGN K
 ALTER TABLE dbo.Cita ADD CONSTRAINT FK_Cita_Cliente FOREIGN KEY (idCliente) REFERENCES dbo.Cliente(idCliente);
 ALTER TABLE dbo.Factura ADD CONSTRAINT FK_Factura_Cliente FOREIGN KEY (idCliente) REFERENCES dbo.Cliente(idCliente);
 ALTER TABLE dbo.DetalleFactura ADD CONSTRAINT FK_DetalleFactura_Factura FOREIGN KEY (idFactura) REFERENCES dbo.Factura(idFactura);
+ALTER TABLE dbo.Factura
+ADD idEmpleado INT NULL;
+
+ALTER TABLE dbo.Factura
+ADD CONSTRAINT FK_Factura_Empleado FOREIGN KEY (idEmpleado) REFERENCES dbo.Empleado(idEmpleado);
