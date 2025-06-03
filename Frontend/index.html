@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menú Principal - Spa Vehicular</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Estilos personalizados para animaciones y efectos */
+    .card-hover {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    .gradient-text {
+      background: linear-gradient(90deg, #1e40af, #9333ea);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-50 text-gray-900 min-h-screen font-sans">
+
+  <div class="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <h1 class="text-5xl font-extrabold mb-12 text-center gradient-text drop-shadow-md">
+      Menú Principal - Spa Vehicular
+    </h1>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Clientes -->
+      <a href="clientes.html" class="card-hover bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition duration-300 ease-in-out border border-gray-100 hover:border-indigo-200">
+        <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt="Clientes" class="w-24 h-24 mb-5 transition-opacity hover:opacity-90">
+        <span class="text-2xl font-semibold text-gray-800 hover:text-indigo-600">Clientes</span>
+      </a>
+
+      <!-- Autos -->
+      <a href="autos.html" class="card-hover bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition duration-300 ease-in-out border border-gray-100 hover:border-purple-200">
+        <img src="https://png.pngtree.com/png-vector/20190215/ourlarge/pngtree-vector-car-icon-png-image_515825.jpg" alt="Autos" class="w-24 h-24 mb-5 transition-opacity hover:opacity-90">
+        <span class="text-2xl font-semibold text-gray-800 hover:text-purple-600">Autos</span>
+      </a>
+
+      <!-- Empleados -->
+      <a href="empleados.html" class="card-hover bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition duration-300 ease-in-out border border-gray-100 hover:border-green-200">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Empleados" class="w-24 h-24 mb-5 transition-opacity hover:opacity-90">
+        <span class="text-2xl font-semibold text-gray-800 hover:text-green-600">Empleados</span>
+      </a>
+
+      <!-- Servicios -->
+      <a href="servicios.html" class="card-hover bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition duration-300 ease-in-out border border-gray-100 hover:border-yellow-200">
+        <img src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png" alt="Servicios" class="w-24 h-24 mb-5 transition-opacity hover:opacity-90">
+        <span class="text-2xl font-semibold text-gray-800 hover:text-yellow-600">Servicios</span>
+      </a>
+
+      <!-- Citas -->
+      <a href="citas.html" class="card-hover bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition duration-300 ease-in-out border border-gray-100 hover:border-red-200">
+        <img src="https://cdn-icons-png.flaticon.com/512/747/747310.png" alt="Citas" class="w-24 h-24 mb-5 transition-opacity hover:opacity-90">
+        <span class="text-2xl font-semibold text-gray-800 hover:text-red-600">Citas</span>
+      </a>
+
+      <!-- Facturas -->
+      <a href="facturas.html" class="card-hover bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition duration-300 ease-in-out border border-gray-100 hover:border-blue-200">
+        <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="Facturas" class="w-24 h-24 mb-5 transition-opacity hover:opacity-90">
+        <span class="text-2xl font-semibold text-gray-800 hover:text-blue-600">Facturas</span>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestión de Autos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="max-w-4xl mx-auto mt-10 p-6 bg-white rounded-2xl shadow-lg">
+    <h1 class="text-3xl font-bold mb-6 text-center text-blue-600">Gestión de Autos</h1>
+
+    <form id="autoForm" class="space-y-4 mb-8">
+      <input type="hidden" id="idAuto" />
+      <input type="text" id="Marca" placeholder="Marca" class="w-full border p-3 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+      <input type="text" id="Modelo" placeholder="Modelo" class="w-full border p-3 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+      <input type="text" id="Placa" placeholder="Placa" class="w-full border p-3 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+      <select id="idCliente" class="w-full border p-3 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+        <option value="">Seleccione un cliente</option>
+      </select>
+      <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-md hover:bg-blue-700 font-semibold transition">Guardar Auto</button>
+    </form>
+
+    <table class="w-full table-auto text-left border-collapse shadow-sm">
+      <thead class="bg-blue-100 text-blue-800">
+        <tr>
+          <th class="border p-3">ID</th>
+          <th class="border p-3">Marca</th>
+          <th class="border p-3">Modelo</th>
+          <th class="border p-3">Placa</th>
+          <th class="border p-3">Cliente</th>
+          <th class="border p-3">Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="autosList" class="bg-white"></tbody>
+    </table>
+  </div>
+
+  <script src="./js/autos.js"></script>
+</body>
+</html>
