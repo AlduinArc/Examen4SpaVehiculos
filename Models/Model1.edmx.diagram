@@ -36,6 +36,7 @@
         <AssociationConnector Association="SpaVehiculosModel.FK_Inventario_Producto" ManuallyRouted="false" />
         <AssociationConnector Association="SpaVehiculosModel.FK_Inventario_Sede" ManuallyRouted="false" />
         <AssociationConnector Association="SpaVehiculosModel.FK_Servicios_Sede" ManuallyRouted="false" />
+        <AssociationConnector Association="SpaVehiculosModel.FK_Factura_Empleado" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -43,8 +43,8 @@ namespace SpaVehiculosProyecto.clases
                 // Actualizar campos según tu modelo
                 existente.Nombre = empleado.Nombre;
                 existente.Apellido = empleado.Apellido;
-                
-                
+
+
 
                 db.SaveChanges();
                 return "Empleado actualizado correctamente.";
@@ -52,6 +52,19 @@ namespace SpaVehiculosProyecto.clases
             catch (Exception ex)
             {
                 return "Error al actualizar el empleado: " + ex.Message;
+            }
+        }
+
+        public IEnumerable<Empleado> ConsultarTodos()
+        {
+            try
+            {
+                return db.Empleadoes.ToList(); // Devuelve todos los clientes
+            }
+            catch (Exception ex)
+            {
+                // Podrías lanzar la excepción o manejarla según tus necesidades
+                throw new Exception("Error al consultar todos los clientes: " + ex.Message);
             }
         }
 

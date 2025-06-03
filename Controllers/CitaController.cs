@@ -29,6 +29,21 @@ namespace SpaVehiculosProyecto.Controllers
             return citaService.Consultar(id);
         }
 
+        [HttpGet]
+        [Route("listar")]
+        public IHttpActionResult Listar()
+        {
+            try
+            {
+                var Cita = citaService.ConsultarTodos();
+                return Ok(Cita); // Esto convierte la lista en JSON automáticamente
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(new Exception("Error al listar clientes: " + ex.Message));
+            }
+        }
+
         [HttpPut]
         [Route("actualizar")]
         public string Actualizar([FromBody] Cita c)

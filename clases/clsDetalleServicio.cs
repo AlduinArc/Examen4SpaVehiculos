@@ -54,6 +54,18 @@ namespace SpaVehiculosProyecto.clases
             }
         }
 
+        public IEnumerable<DetalleServicio> ConsultarTodos()
+        {
+            try
+            {
+                return db.DetalleServicios.ToList(); 
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al consultar todos los clientes: " + ex.Message);
+            }
+        }
+
         public string Eliminar(int idDetalle)
         {
             try

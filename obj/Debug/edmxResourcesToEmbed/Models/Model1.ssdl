@@ -90,6 +90,7 @@
     <Property Name="idCliente" Type="int" Nullable="false" />
     <Property Name="Fecha" Type="date" />
     <Property Name="Total" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="idEmpleado" Type="int" />
   </EntityType>
   <EntityType Name="Inventario">
     <Key>
@@ -266,6 +267,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_Factura_Empleado">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="0..1" />
+    <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="idEmpleado" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="idEmpleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_Inventario_Producto">
     <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
     <End Role="Inventario" Type="Self.Inventario" Multiplicity="*" />
@@ -381,6 +394,10 @@
     </AssociationSet>
     <AssociationSet Name="FK_Factura_Cliente" Association="Self.FK_Factura_Cliente">
       <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Factura" EntitySet="Factura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Factura_Empleado" Association="Self.FK_Factura_Empleado">
+      <End Role="Empleado" EntitySet="Empleado" />
       <End Role="Factura" EntitySet="Factura" />
     </AssociationSet>
     <AssociationSet Name="FK_Inventario_Producto" Association="Self.FK_Inventario_Producto">

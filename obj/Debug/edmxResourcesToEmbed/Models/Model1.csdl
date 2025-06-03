@@ -96,6 +96,7 @@
     <Property Name="idServicio" Type="Int32" />
     <NavigationProperty Name="Servicio" Relationship="Self.FK_Empleado_Servicio" FromRole="Empleado" ToRole="Servicios" />
     <NavigationProperty Name="Turnoes" Relationship="Self.FK_Turno_Empleado" FromRole="Empleado" ToRole="Turno" />
+    <NavigationProperty Name="Facturas" Relationship="SpaVehiculosModel.FK_Factura_Empleado" FromRole="Empleado" ToRole="Factura" />
   </EntityType>
   <EntityType Name="Factura">
     <Key>
@@ -107,6 +108,8 @@
     <Property Name="Total" Type="Decimal" Precision="10" Scale="2" />
     <NavigationProperty Name="Cliente" Relationship="Self.FK_Factura_Cliente" FromRole="Factura" ToRole="Cliente" />
     <NavigationProperty Name="DetalleFacturas" Relationship="Self.FK_DetalleFactura_Factura" FromRole="Factura" ToRole="DetalleFactura" />
+    <Property Name="idEmpleado" Type="Int32" />
+    <NavigationProperty Name="Empleado" Relationship="SpaVehiculosModel.FK_Factura_Empleado" FromRole="Factura" ToRole="Empleado" />
   </EntityType>
   <EntityType Name="Inventario">
     <Key>
@@ -433,5 +436,21 @@
       <End Role="Sede" EntitySet="Sedes" />
       <End Role="Servicios" EntitySet="Servicios" />
     </AssociationSet>
+    <AssociationSet Name="FK_Factura_Empleado" Association="SpaVehiculosModel.FK_Factura_Empleado">
+      <End Role="Empleado" EntitySet="Empleadoes" />
+      <End Role="Factura" EntitySet="Facturas" />
+    </AssociationSet>
   </EntityContainer>
+  <Association Name="FK_Factura_Empleado">
+    <End Type="SpaVehiculosModel.Empleado" Role="Empleado" Multiplicity="0..1" />
+    <End Type="SpaVehiculosModel.Factura" Role="Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="idEmpleado" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="idEmpleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 using Newtonsoft.Json;
+using System.Web.Http.Cors; // Agregado para CORS
 
 namespace SpaVehiculosProyecto
 {
@@ -10,6 +11,13 @@ namespace SpaVehiculosProyecto
     {
         public static void Register(HttpConfiguration config)
         {
+            // Habilitar CORS
+            var cors = new EnableCorsAttribute(
+                origins: "*", // Permitir todos los orígenes (ajústalo según necesites)
+                headers: "*",
+                methods: "*");
+            config.EnableCors(cors);
+
             // Configuración para ignorar referencias circulares en JSON
             var jsonFormatter = config.Formatters.JsonFormatter;
             jsonFormatter.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
@@ -21,12 +29,13 @@ namespace SpaVehiculosProyecto
             // Configurar el formato de fecha
             jsonFormatter.SerializerSettings.DateFormatHandling = DateFormatHandling.IsoDateFormat;
 
-            // Configuración y servicios de Web API
+            // Habilitar rutas basadas en atributos (necesario para rutas como api/autos/consultar)
             config.MapHttpAttributeRoutes();
 
+            // Configuración de rutas por defecto
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "api/{controller}/{action}/{id}", // Agregado {action} para soportar rutas como consultar, crear, etc.
                 defaults: new { id = RouteParameter.Optional }
             );
 

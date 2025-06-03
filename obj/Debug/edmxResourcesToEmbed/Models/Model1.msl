@@ -95,6 +95,7 @@
     <EntitySetMapping Name="Facturas">
       <EntityTypeMapping TypeName="SpaVehiculosModel.Factura">
         <MappingFragment StoreEntitySet="Factura">
+          <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
           <ScalarProperty Name="idFactura" ColumnName="idFactura" />
           <ScalarProperty Name="idCliente" ColumnName="idCliente" />
           <ScalarProperty Name="Fecha" ColumnName="Fecha" />

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Web;
+using System.Web.Http;
 using SpaVehiculosProyecto.Models;
 
 namespace SpaVehiculosProyecto.clases
@@ -16,7 +17,6 @@ namespace SpaVehiculosProyecto.clases
         {
             try
             {
-                factura.Fecha = DateTime.Now;
                 db.Facturas.Add(factura);
                 db.SaveChanges();
                 return "Factura registrada con éxito.";
@@ -32,6 +32,19 @@ namespace SpaVehiculosProyecto.clases
             return db.Facturas.FirstOrDefault(f => f.idFactura == idFactura);
         }
 
+        public IEnumerable<Factura> ConsultarTodos()
+        {
+            try
+            {
+                return db.Facturas.ToList(); // Devuelve todos los clientes
+            }
+            catch (Exception ex)
+            {
+                // Podrías lanzar la excepción o manejarla según tus necesidades
+                throw new Exception("Error al consultar todos los clientes: " + ex.Message);
+            }
+        }
+
         public string Actualizar(Factura factura)
         {
             try
@@ -43,7 +56,7 @@ namespace SpaVehiculosProyecto.clases
                 }
 
                 existente.idCliente = factura.idCliente;
-               
+                existente.idEmpleado = factura.idEmpleado;
                 existente.Fecha = factura.Fecha;
                 existente.Total = factura.Total;
 

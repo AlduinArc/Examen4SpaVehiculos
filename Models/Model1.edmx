@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="SpaVehiculosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="SpaVehiculosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Auto">
           <Key>
             <PropertyRef Name="idAuto" />
@@ -95,6 +95,7 @@
           <Property Name="idCliente" Type="int" Nullable="false" />
           <Property Name="Fecha" Type="date" />
           <Property Name="Total" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="idEmpleado" Type="int" />
         </EntityType>
         <EntityType Name="Inventario">
           <Key>
@@ -271,6 +272,18 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_Factura_Empleado">
+          <End Role="Empleado" Type="Self.Empleado" Multiplicity="0..1" />
+          <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empleado">
+              <PropertyRef Name="idEmpleado" />
+            </Principal>
+            <Dependent Role="Factura">
+              <PropertyRef Name="idEmpleado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_Inventario_Producto">
           <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
           <End Role="Inventario" Type="Self.Inventario" Multiplicity="*" />
@@ -388,6 +401,10 @@
             <End Role="Cliente" EntitySet="Cliente" />
             <End Role="Factura" EntitySet="Factura" />
           </AssociationSet>
+          <AssociationSet Name="FK_Factura_Empleado" Association="Self.FK_Factura_Empleado">
+            <End Role="Empleado" EntitySet="Empleado" />
+            <End Role="Factura" EntitySet="Factura" />
+          </AssociationSet>
           <AssociationSet Name="FK_Inventario_Producto" Association="Self.FK_Inventario_Producto">
             <End Role="Productos" EntitySet="Productos" />
             <End Role="Inventario" EntitySet="Inventario" />
@@ -409,8 +426,7 @@
             <End Role="Turno" EntitySet="Turno" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="SpaVehiculosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -510,6 +526,7 @@
           <Property Name="idServicio" Type="Int32" />
           <NavigationProperty Name="Servicio" Relationship="Self.FK_Empleado_Servicio" FromRole="Empleado" ToRole="Servicios" />
           <NavigationProperty Name="Turnoes" Relationship="Self.FK_Turno_Empleado" FromRole="Empleado" ToRole="Turno" />
+          <NavigationProperty Name="Facturas" Relationship="SpaVehiculosModel.FK_Factura_Empleado" FromRole="Empleado" ToRole="Factura" />
         </EntityType>
         <EntityType Name="Factura">
           <Key>
@@ -521,6 +538,8 @@
           <Property Name="Total" Type="Decimal" Precision="10" Scale="2" />
           <NavigationProperty Name="Cliente" Relationship="Self.FK_Factura_Cliente" FromRole="Factura" ToRole="Cliente" />
           <NavigationProperty Name="DetalleFacturas" Relationship="Self.FK_DetalleFactura_Factura" FromRole="Factura" ToRole="DetalleFactura" />
+          <Property Name="idEmpleado" Type="Int32" />
+          <NavigationProperty Name="Empleado" Relationship="SpaVehiculosModel.FK_Factura_Empleado" FromRole="Factura" ToRole="Empleado" />
         </EntityType>
         <EntityType Name="Inventario">
           <Key>
@@ -847,7 +866,23 @@
             <End Role="Sede" EntitySet="Sedes" />
             <End Role="Servicios" EntitySet="Servicios" />
           </AssociationSet>
+          <AssociationSet Name="FK_Factura_Empleado" Association="SpaVehiculosModel.FK_Factura_Empleado">
+            <End Role="Empleado" EntitySet="Empleadoes" />
+            <End Role="Factura" EntitySet="Facturas" />
+          </AssociationSet>
         </EntityContainer>
+        <Association Name="FK_Factura_Empleado">
+          <End Type="SpaVehiculosModel.Empleado" Role="Empleado" Multiplicity="0..1" />
+          <End Type="SpaVehiculosModel.Factura" Role="Factura" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empleado">
+              <PropertyRef Name="idEmpleado" />
+            </Principal>
+            <Dependent Role="Factura">
+              <PropertyRef Name="idEmpleado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -948,6 +983,7 @@
           <EntitySetMapping Name="Facturas">
             <EntityTypeMapping TypeName="SpaVehiculosModel.Factura">
               <MappingFragment StoreEntitySet="Factura">
+                <ScalarProperty Name="idEmpleado" ColumnName="idEmpleado" />
                 <ScalarProperty Name="idFactura" ColumnName="idFactura" />
                 <ScalarProperty Name="idCliente" ColumnName="idCliente" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />

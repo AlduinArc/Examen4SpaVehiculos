@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using SpaVehiculosProyecto.Models;
 
@@ -26,6 +27,18 @@ namespace SpaVehiculosProyecto.clases
         public DetalleFactura Consultar(int idDetalle)
         {
             return db.DetalleFacturas.FirstOrDefault(d => d.idDetalleFactura == idDetalle);
+        }
+        public IEnumerable<DetalleFactura> ConsultarTodos()
+        {
+            try
+            {
+                return db.DetalleFacturas.ToList(); // Devuelve todos los clientes
+            }
+            catch (Exception ex)
+            {
+                // Podrías lanzar la excepción o manejarla según tus necesidades
+                throw new Exception("Error al consultar todos los clientes: " + ex.Message);
+            }
         }
 
         public string Actualizar(DetalleFactura detalle)

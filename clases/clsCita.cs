@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Linq;
 using System.Web;
 using SpaVehiculosProyecto.Models;
@@ -15,18 +16,18 @@ namespace SpaVehiculosProyecto.clases
         {
             try
             {
-                cita.Fecha = DateTime.Now; // Asumimos que hay un campo FechaCreacion
+                // No asignamos ninguna fecha aquí; se usará la que viene del frontend
                 db.Citas.Add(cita);
                 db.SaveChanges();
                 return "Cita registrada con éxito.";
             }
             catch (Exception ex)
             {
-                // Método para recorrer todas las inner exceptions
                 string mensajeError = ObtenerMensajesExcepcion(ex);
                 return "Error al registrar la cita: " + mensajeError;
             }
         }
+
         private string ObtenerMensajesExcepcion(Exception ex)
         {
             var mensajes = new System.Text.StringBuilder();
@@ -41,6 +42,18 @@ namespace SpaVehiculosProyecto.clases
         public Cita Consultar(int idCita)
         {
             return db.Citas.FirstOrDefault(c => c.idCita == idCita);
+        }
+        public IEnumerable<Cita> ConsultarTodos()
+        {
+            try
+            {
+                return db.Citas.ToList(); // Devuelve todos los clientes
+            }
+            catch (Exception ex)
+            {
+                // Podrías lanzar la excepción o manejarla según tus necesidades
+                throw new Exception("Error al consultar todos los clientes: " + ex.Message);
+            }
         }
 
         public string Actualizar(Cita cita)

@@ -75,6 +75,18 @@ namespace SpaVehiculosProyecto.clases
                 return "Error al eliminar el cliente: " + ex.Message;
             }
         }
+        public IEnumerable<Cliente> ConsultarTodos()
+        {
+            try
+            {
+                return db.Clientes.ToList(); // Devuelve todos los clientes
+            }
+            catch (Exception ex)
+            {
+                // Podrías lanzar la excepción o manejarla según tus necesidades
+                throw new Exception("Error al consultar todos los clientes: " + ex.Message);
+            }
+        }
 
     }
 }

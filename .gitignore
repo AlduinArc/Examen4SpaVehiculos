@@ -1,0 +1,103 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Visual Studio files
+.vs/
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# IIS Express
+*.vspscc
+*.vssscc
+*.pidb
+*.psess
+*.vsp
+*.vsix
+*.cache
+*.dbmdl
+*.dbproj.schemaview
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Entity Framework
+Migrations/
+
+# Logs
+*.log
+
+# Others
+*.tmp
+*.bak
+*.ncb
+*.orig
+*.rej
+*.sdf
+*.sqlite
+*.swp
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.ps1
+
+# DotCover
+.idea/
+.ReSharper*/
+_Tools/
+
+# Local test results
+TestResults/
+*.trx
+
+# Compiled DLLs
+*.dll
+*.exe
+*.pdb
+
+# Publish profiles
+Properties/PublishProfiles/
+
+# Rider IDE
+.idea/
+
+# Backup
+*.bak
+*.zip
+*.rar
+
+# macOS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# JetBrains Rider
+.idea/
+
+# Folder for VS Code
+.vscode/
+
+# File-based secrets
+secrets.json

@@ -29,6 +29,22 @@ namespace SpaVehiculosProyecto.Controllers
             return detalleService.Consultar(id);
         }
 
+        [HttpGet]
+        [Route("listar")]
+        public IHttpActionResult Listar()
+        {
+            try
+            {
+                var Detallefactura = detalleService.ConsultarTodos();
+                return Ok(Detallefactura); // Esto convierte la lista en JSON automáticamente
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(new Exception("Error al listar clientes: " + ex.Message));
+            }
+        }
+
+
         [HttpPut]
         [Route("actualizar")]
         public string Actualizar([FromBody] DetalleFactura d)
