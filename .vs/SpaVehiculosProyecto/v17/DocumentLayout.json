@@ -1,134 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\",
+  "WorkspaceRootPath": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|d:\\onedrive - instituto tecnologico metropolitano - itm\\desktop\\spavehicular\\clases\\clsservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\frontend\\js\\clientes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:frontend\\js\\clientes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clscita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clscita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\frontend\\js\\citas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:frontend\\js\\citas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\frontend\\js\\autos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:frontend\\js\\autos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\frontend\\autos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:frontend\\autos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\frontend\\js\\servicios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:frontend\\js\\servicios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\frontend\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:frontend\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\frontend\\js\\facturas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:frontend\\js\\facturas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\frontend\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:frontend\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\models\\detalleservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:models\\detalleservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\controllers\\detalleserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:controllers\\detalleserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\controllers\\detallesfacturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:controllers\\detallesfacturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsdetalleservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsdetalleservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsdetallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsdetallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clscypher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clscypher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:clases\\clsempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\frontend\\clientes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:frontend\\clientes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|c:\\users\\morfeo\\source\\repos\\examen4spavehiculos\\frontend\\servicios.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B883CA-220E-4989-A674-F74A9BE1145D}|SpaVehiculosProyecto.csproj|solutionrelative:frontend\\servicios.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\inventario.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\inventario.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\facturas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\facturas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\empleados.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\empleados.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\citas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\citas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\empleados.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\js\\empleados.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -158,388 +110,263 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\css\\styles.css",
+              "RelativeDocumentMoniker": "Frontend\\css\\styles.css",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\css\\styles.css",
+              "RelativeToolTip": "Frontend\\css\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-04T01:03:24.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:22:22.939Z"
+              "Title": "servicios.html",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\servicios.html",
+              "RelativeDocumentMoniker": "Frontend\\servicios.html",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\servicios.html",
+              "RelativeToolTip": "Frontend\\servicios.html",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:03:20.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "Controllers\\ValuesController.cs",
+              "Title": "inventario.html",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\inventario.html",
+              "RelativeDocumentMoniker": "Frontend\\inventario.html",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\inventario.html",
+              "RelativeToolTip": "Frontend\\inventario.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:22:19.872Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:03:19.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "ServicioController.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\ServicioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ServicioController.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\ServicioController.cs",
-              "RelativeToolTip": "Controllers\\ServicioController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:21:53.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FacturaController.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\FacturaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FacturaController.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\FacturaController.cs",
-              "RelativeToolTip": "Controllers\\FacturaController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAwDIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:19:36.52Z"
+              "Title": "facturas.html",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\facturas.html",
+              "RelativeDocumentMoniker": "Frontend\\facturas.html",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\facturas.html",
+              "RelativeToolTip": "Frontend\\facturas.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:03:18.667Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "EmpleadoController.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\EmpleadoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmpleadoController.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\EmpleadoController.cs",
-              "RelativeToolTip": "Controllers\\EmpleadoController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:16:32.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "clsFactura.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsFactura.cs",
-              "RelativeDocumentMoniker": "clases\\clsFactura.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsFactura.cs",
-              "RelativeToolTip": "clases\\clsFactura.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T19:03:02.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Model1.edmx",
-              "RelativeDocumentMoniker": "Models\\Model1.edmx",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-06-01T19:00:24.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CitaController.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\CitaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CitaController.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\CitaController.cs",
-              "RelativeToolTip": "Controllers\\CitaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:03:48.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsCita.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsCita.cs",
-              "RelativeDocumentMoniker": "clases\\clsCita.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsCita.cs",
-              "RelativeToolTip": "clases\\clsCita.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowA4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T18:38:52.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "clsServicios.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsServicios.cs",
-              "RelativeDocumentMoniker": "clases\\clsServicios.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsServicios.cs",
-              "RelativeToolTip": "clases\\clsServicios.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAswFAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T19:03:21.724Z",
+              "Title": "empleados.html",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\empleados.html",
+              "RelativeDocumentMoniker": "Frontend\\empleados.html",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\empleados.html",
+              "RelativeToolTip": "Frontend\\empleados.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:03:17.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "DetalleFactura.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\DetalleFactura.cs",
-              "RelativeDocumentMoniker": "Models\\DetalleFactura.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\DetalleFactura.cs",
-              "RelativeToolTip": "Models\\DetalleFactura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T02:54:00.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Model1.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Model1.cs",
-              "RelativeDocumentMoniker": "Models\\Model1.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Model1.cs",
-              "RelativeToolTip": "Models\\Model1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T02:54:01.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Factura.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Factura.cs",
-              "RelativeDocumentMoniker": "Models\\Factura.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Factura.cs",
-              "RelativeToolTip": "Models\\Factura.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:11:34.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Empleado.cs",
-              "RelativeDocumentMoniker": "Models\\Empleado.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Empleado.cs",
-              "RelativeToolTip": "Models\\Empleado.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:12:24.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DetalleServicio.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\DetalleServicio.cs",
-              "RelativeDocumentMoniker": "Models\\DetalleServicio.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\DetalleServicio.cs",
-              "RelativeToolTip": "Models\\DetalleServicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T02:54:03.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Ciudad.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Ciudad.cs",
-              "RelativeDocumentMoniker": "Models\\Ciudad.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Ciudad.cs",
-              "RelativeToolTip": "Models\\Ciudad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T02:54:08.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "Models\\Producto.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Producto.cs",
-              "RelativeToolTip": "Models\\Producto.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T02:54:23.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Models\\Cliente.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Models\\Cliente.cs",
-              "RelativeToolTip": "Models\\Cliente.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T02:54:09.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DetalleServicioController.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\DetalleServicioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DetalleServicioController.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\DetalleServicioController.cs",
-              "RelativeToolTip": "Controllers\\DetalleServicioController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:15:26.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DetallesFacturaController.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\DetallesFacturaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DetallesFacturaController.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\DetallesFacturaController.cs",
-              "RelativeToolTip": "Controllers\\DetallesFacturaController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAYwB8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:14:24.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "clsDetalleServicio.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsDetalleServicio.cs",
-              "RelativeDocumentMoniker": "clases\\clsDetalleServicio.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsDetalleServicio.cs",
-              "RelativeToolTip": "clases\\clsDetalleServicio.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAkwD8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T19:02:35.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "clsAuto.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsAuto.cs",
-              "RelativeDocumentMoniker": "clases\\clsAuto.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsAuto.cs",
-              "RelativeToolTip": "clases\\clsAuto.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAkwFEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T19:01:25.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "clsCliente.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsCliente.cs",
-              "RelativeDocumentMoniker": "clases\\clsCliente.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsCliente.cs",
-              "RelativeToolTip": "clases\\clsCliente.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAYwE0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T19:02:20.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "clsDetalleFactura.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsDetalleFactura.cs",
-              "RelativeDocumentMoniker": "clases\\clsDetalleFactura.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsDetalleFactura.cs",
-              "RelativeToolTip": "clases\\clsDetalleFactura.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowB4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T19:02:26.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "clsCypher.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsCypher.cs",
-              "RelativeDocumentMoniker": "clases\\clsCypher.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsCypher.cs",
-              "RelativeToolTip": "clases\\clsCypher.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:11:56.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Controllers\\ClienteController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T20:45:00.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AutoController.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\AutoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AutoController.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Controllers\\AutoController.cs",
-              "RelativeToolTip": "Controllers\\AutoController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCgAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T21:02:58.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "clsEmpleado.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsEmpleado.cs",
-              "RelativeDocumentMoniker": "clases\\clsEmpleado.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\clases\\clsEmpleado.cs",
-              "RelativeToolTip": "clases\\clsEmpleado.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwEMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T19:02:52.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-02T18:03:41.244Z",
+              "Title": "clientes.html",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\clientes.html",
+              "RelativeDocumentMoniker": "Frontend\\clientes.html",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\clientes.html",
+              "RelativeToolTip": "Frontend\\clientes.html",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:03:16.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "packages.config",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\packages.config",
-              "RelativeDocumentMoniker": "packages.config",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\packages.config",
-              "RelativeToolTip": "packages.config",
+              "DocumentIndex": 18,
+              "Title": "citas.html",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\citas.html",
+              "RelativeDocumentMoniker": "Frontend\\citas.html",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\citas.html",
+              "RelativeToolTip": "Frontend\\citas.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:03:15.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "autos.html",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\autos.html",
+              "RelativeDocumentMoniker": "Frontend\\autos.html",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\autos.html",
+              "RelativeToolTip": "Frontend\\autos.html",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:03:11.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "servicios.js",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\servicios.js",
+              "RelativeDocumentMoniker": "Frontend\\js\\servicios.js",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\servicios.js",
+              "RelativeToolTip": "Frontend\\js\\servicios.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-04T00:59:41.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\main.js",
+              "RelativeDocumentMoniker": "Frontend\\js\\main.js",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\main.js",
+              "RelativeToolTip": "Frontend\\js\\main.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-04T00:59:40.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "facturas.js",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\facturas.js",
+              "RelativeDocumentMoniker": "Frontend\\js\\facturas.js",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\facturas.js",
+              "RelativeToolTip": "Frontend\\js\\facturas.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-04T00:59:38.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clientes.js",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\clientes.js",
+              "RelativeDocumentMoniker": "Frontend\\js\\clientes.js",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\clientes.js",
+              "RelativeToolTip": "Frontend\\js\\clientes.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-04T00:59:36.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "citas.js",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\citas.js",
+              "RelativeDocumentMoniker": "Frontend\\js\\citas.js",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\citas.js",
+              "RelativeToolTip": "Frontend\\js\\citas.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-04T00:59:35.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "autos.js",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\autos.js",
+              "RelativeDocumentMoniker": "Frontend\\js\\autos.js",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\autos.js",
+              "RelativeToolTip": "Frontend\\js\\autos.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-04T00:59:33.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\app.js",
+              "RelativeDocumentMoniker": "Frontend\\js\\app.js",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\app.js",
+              "RelativeToolTip": "Frontend\\js\\app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-04T00:59:32.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "empleados.js",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\empleados.js",
+              "RelativeDocumentMoniker": "Frontend\\js\\empleados.js",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\js\\empleados.js",
+              "RelativeToolTip": "Frontend\\js\\empleados.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-04T00:58:47.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-02T18:03:40.939Z"
+              "WhenOpened": "2025-06-04T00:46:43.307Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\index.html",
+              "RelativeDocumentMoniker": "Frontend\\index.html",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Frontend\\index.html",
+              "RelativeToolTip": "Frontend\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T00:46:09.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T21:22:22.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "WebApiConfig.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\App_Start\\WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\Morfeo\\source\\repos\\Examen4SpaVehiculos\\App_Start\\WebApiConfig.cs",
               "RelativeToolTip": "App_Start\\WebApiConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T18:30:57.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
-              "ToolTip": "D:\\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\\Desktop\\SpaVehicular\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T17:27:50.358Z"
+              "WhenOpened": "2025-06-01T18:30:57.463Z",
+              "EditorCaption": ""
             }
           ]
         }

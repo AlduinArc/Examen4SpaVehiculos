@@ -1,4 +1,4 @@
-const apiServicios = "https://localhost:44307/api/servicios";
+const apiServicios = "http://spavehiculosproy.runasp.net/api/servicios";
 const servicioForm = document.getElementById("servicio-form");
 const serviciosBody = document.getElementById("servicios-body");
 

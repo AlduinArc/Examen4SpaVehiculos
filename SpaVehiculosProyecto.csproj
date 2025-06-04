@@ -416,6 +416,23 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="favicon.ico" />
+    <Content Include="Frontend\autos.html" />
+    <Content Include="Frontend\citas.html" />
+    <Content Include="Frontend\clientes.html" />
+    <Content Include="Frontend\css\styles.css" />
+    <Content Include="Frontend\empleados.html" />
+    <Content Include="Frontend\facturas.html" />
+    <Content Include="Frontend\index.html" />
+    <Content Include="Frontend\inventario.html" />
+    <Content Include="Frontend\js\app.js" />
+    <Content Include="Frontend\js\autos.js" />
+    <Content Include="Frontend\js\citas.js" />
+    <Content Include="Frontend\js\clientes.js" />
+    <Content Include="Frontend\js\empleados.js" />
+    <Content Include="Frontend\js\facturas.js" />
+    <Content Include="Frontend\js\main.js" />
+    <Content Include="Frontend\js\servicios.js" />
+    <Content Include="Frontend\servicios.html" />
     <Content Include="Global.asax" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -459,6 +476,8 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <None Include="Properties\PublishProfiles\site27772-WebDeploy.pubxml" />
+    <None Include="Properties\PublishProfiles\site27772-WebDeploy1.pubxml" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />

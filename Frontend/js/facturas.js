@@ -1,6 +1,6 @@
-const apiBase = "https://localhost:44307/api/facturas";
-const apiClientes = "https://localhost:44307/api/clientes/listar";
-const apiEmpleados = "https://localhost:44307/api/empleados/listar";
+const apiBase = "http://spavehiculosproy.runasp.net/api/facturas";
+const apiClientes = "http://spavehiculosproy.runasp.net/api/clientes/listar";
+const apiEmpleados = "http://spavehiculosproy.runasp.net/api/empleados/listar";
 
 const form = document.getElementById("factura-form");
 const tbody = document.getElementById("facturas-body");

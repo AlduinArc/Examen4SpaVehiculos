@@ -5,7 +5,7 @@ export async function fetchAPI(endpoint, method = 'GET', data = null) {
   };
   if (data) options.body = JSON.stringify(data);
 
-  const res = await fetch(`https://localhost:44307/api/${endpoint}`, options);
+    const res = await fetch(`http://spavehiculosproy.runasp.net/api/${endpoint}`, options);
   if (!res.ok) throw new Error(`Error en ${method} ${endpoint}`);
   return await res.json();
 }

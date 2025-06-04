@@ -1,5 +1,5 @@
-const apiCitas = "https://localhost:44307/api/citas";
-const apiClientes = "https://localhost:44307/api/clientes/listar";
+const apiCitas = "http://spavehiculosproy.runasp.net/api/citas";
+const apiClientes = "http://spavehiculosproy.runasp.net/api/clientes/listar";
 
 const citaForm = document.getElementById("cita-form");
 const citasBody = document.getElementById("citas-body");

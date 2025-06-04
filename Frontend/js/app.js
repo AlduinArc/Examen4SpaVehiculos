@@ -1,4 +1,4 @@
-const apiBase = "https://localhost:44307/api/autos";
+const apiBase = "http://spavehiculosproy.runasp.net/api/autos";
 const autoForm = document.getElementById("autoForm");
 const autosList = document.getElementById("autosList");
 

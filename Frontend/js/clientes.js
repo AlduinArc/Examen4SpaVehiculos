@@ -1,4 +1,4 @@
-const apiClientes = "https://localhost:44307/api/clientes";
+const apiClientes = "http://spavehiculosproy.runasp.net/api/clientes";
 const form = document.getElementById("cliente-form");
 const tabla = document.getElementById("clientes-body");
 let editandoCliente = null;

@@ -1,5 +1,5 @@
-const apiAutos = "https://localhost:44307/api/autos";
-const apiClientes = "https://localhost:44307/api/clientes/listar";
+const apiAutos = "http://spavehiculosproy.runasp.net/api/autos";
+const apiClientes = "http://spavehiculosproy.runasp.net/api/clientes/listar";
 
 const formAuto = document.getElementById("autoForm");
 const autosList = document.getElementById("autosList");

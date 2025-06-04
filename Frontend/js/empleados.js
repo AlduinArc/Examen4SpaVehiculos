@@ -1,6 +1,6 @@
 const form = document.getElementById("empleado-form");
 const tbody = document.getElementById("empleados-body");
-const apiURL = "https://localhost:44307/api/empleados";
+const apiURL = "http://spavehiculosproy.runasp.net/api/empleados";
 
 async function cargarEmpleados() {
   const res = await fetch(apiURL + "/listar");
